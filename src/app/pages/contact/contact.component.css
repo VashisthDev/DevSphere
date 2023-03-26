@@ -1,0 +1,74 @@
+
+.contact-us {
+    background: linear-gradient(109.6deg, rgb(41, 125, 182) 3.6%, rgb(77, 58, 151) 51%, rgb(103, 55, 115) 92.9%);
+    padding: 50px 0;
+    
+  }
+  
+  .contact-us h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    animation: fade-in 1s ease-in-out forwards;
+  }
+  
+  .contact-us p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    animation: fade-in 1s ease-in-out forwards;
+  }
+  
+  .contact-us form {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: animate-on-scroll 1s ease-in-out forwards;
+  }
+  
+  .contact-us form .form-group {
+    width: 100%;
+    margin: 10px 0;
+    animation: fade-in 1s ease-in-out forwards;
+  }
+  
+  .contact-us form label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-us form input[type="text"],
+  .contact-us form input[type="email"],
+  .contact-us form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFF;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+  }
+  
+  .contact-us form textarea {
+    height: 150px;
+  }
+  
+  .contact-us form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .contact-us form button[type="submit"]:hover {
+    background-color: #0056B3;
+  }
+  

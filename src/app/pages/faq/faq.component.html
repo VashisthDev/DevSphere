@@ -1,0 +1,9 @@
+<section class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item" *ngFor="let item of faqItems">
+      <h3 class="faq-question" (click)="toggleAnswer(item)">{{ item.question }}</h3>
+      <div class="faq-answer" [class.show-answer]="item.showAnswer">
+        <p>{{ item.answer }}</p>
+      </div>
+    </div>
+  </section>

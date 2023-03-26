@@ -1,0 +1,37 @@
+/* Footer */
+.footer {
+  background-color: #242424;
+  color: #fff;
+  font-size: 16px;
+  padding: 50px 0;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Logo */
+.footer-logo h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Info */
+.footer-info p {
+  margin: 0;
+}
+
+/* Copyright */
+.footer-info:before {
+  content: "\00a9 ";
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
