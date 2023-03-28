@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   }
 
   scrollToContact(): void {
-    const contactSection = this.elementRef.nativeElement.querySelector('#contact-section');
+    const contactSection = this.elementRef.nativeElement.querySelector('#contact');
     contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 }
